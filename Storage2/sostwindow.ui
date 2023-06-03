@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SostWindow</class>
+ <widget class="QWidget" name="SostWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Хранилище</string>
+  </property>
+  <widget class="QPushButton" name="menuButtonSost">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>260</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выйти в меню</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>374</width>
+     <height>204</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="3">
+     <widget class="QProgressBar" name="woodbar">
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Свинец</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QProgressBar" name="alumbar">
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Аллюминий</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Дерево</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QLCDNumber" name="plummax">
+      <property name="intValue" stdset="0">
+       <number>30000</number>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLCDNumber" name="reztek">
+      <property name="intValue" stdset="0">
+       <number>25000</number>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLCDNumber" name="woodtek">
+      <property name="intValue" stdset="0">
+       <number>8500</number>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QLCDNumber" name="alummax">
+      <property name="intValue" stdset="0">
+       <number>40000</number>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="3">
+     <widget class="QProgressBar" name="plumbar">
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QProgressBar" name="ironbar">
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="QLCDNumber" name="rezmax">
+      <property name="intValue" stdset="0">
+       <number>68000</number>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="QProgressBar" name="goldbar">
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLCDNumber" name="alumtek">
+      <property name="intValue" stdset="0">
+       <number>13000</number>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLCDNumber" name="ironmax">
+      <property name="intValue" stdset="0">
+       <number>68000</number>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Золото</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="3">
+     <widget class="QProgressBar" name="rezbar">
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QLCDNumber" name="goldmax">
+      <property name="intValue" stdset="0">
+       <number>15000</number>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLCDNumber" name="goldtek">
+      <property name="intValue" stdset="0">
+       <number>2500</number>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Резина</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Железо</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLCDNumber" name="irontek">
+      <property name="intValue" stdset="0">
+       <number>13000</number>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLCDNumber" name="woodmax">
+      <property name="intValue" stdset="0">
+       <number>35000</number>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLCDNumber" name="plumtek">
+      <property name="intValue" stdset="0">
+       <number>4000</number>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Тип материала</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>Текущее</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>Максимальное</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>Осталось</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>75</x>
+     <y>10</y>
+     <width>221</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Состояние склада&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
