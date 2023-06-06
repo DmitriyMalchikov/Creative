@@ -19,4 +19,4 @@
 Тестирование программы представленно в видео на YouTube: https://youtu.be/CG9LoUCxzng (вторая часть)
 
 ## UML-Диаграмма классов
-UML-Диаграмма классов хранится в этой же папке с отчетом
+UML-Диаграмма классов хранится в этой же папке с отчетом. [UML-Диаграмма](https://github.com/DmitriyMalchikov/Creative/blob/main/Otcheti/tsp/tsp.png)
